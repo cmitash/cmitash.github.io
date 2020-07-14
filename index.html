@@ -19,7 +19,8 @@
               <p style="text-align:center">
                 <name>Chaitanya Mitash</name>
               </p>
-              <p>I am a Ph.D Candidate in the Computer Science department at Rutgers, co-advised by professors <a style="color: blue;text-decoration: underline;" href="http://www.abdeslam.net/"> Abdeslam Boularias </a> and <a style="color: blue;text-decoration: underline;" href="http://www.pracsyslab.org/bekris"> Kostas Bekris </a>. 
+              <p>I am a Ph.D Candidate in the Computer Science department at Rutgers, co-advised by professors <a style="color: blue;text-decoration: underline;" href="http://www.abdeslam.net/"> Abdeslam Boularias </a> and <a style="color: blue;text-decoration: underline;" href="http://www.pracsyslab.org/bekris"> Kostas Bekris </a>. My research interests lie in the field of Robotics, Computer Vision and Machine Learning. Specifically, I am working on problems related to perception for Robotic Manipulation. During my PhD, I did internships with Microsoft Hololens, Redmond, WA where I worked on semantic segmentation for mixed reality applications and at <a href="https://www.amazonrobotics.com/">Amazon Robotics, North Reading, MA</a> where I worked on task-driven perception for manipulation. 
+                Before graduate school, I worked as a software engineer in the R&D divisions of Samsung Electronics and Tejas Networks in the embedded software domain. I received my B.E. degree in Computer Science from Birla Institute of Technology, Mesra in 2012.
               </p>
               <p style="text-align:center">
                 <a href="mailto:mitash.chaitanya@gmail.com">Email</a> &nbsp/&nbsp
@@ -38,9 +39,6 @@
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
-              <p>
-                My research interests lie in the field of Robotics, Computer Vision and Machine Learning. Specifically, I am working on problems related to perception for Robotic Manipulation.
-              </p>
             </td>
           </tr>
         </tbody></table>
@@ -80,6 +78,78 @@
               <a href="data/ral20_supplementary_material.pdf">supplementary material</a>
               <p></p>
               <p>An integrated perception and manipulation planning pipeline with a dynamic object representation, demonstrating high success rate and efficiency in solving pick-and-constrained placement of previously unseen objects.</p>
+            </td>
+          </tr>
+
+          <!-- Paper -->
+
+          <tr onmouseout="ff_stop()" onmouseover="ff_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ff_image'>
+                  <img src='images/se3_tracknet.gif' width="160"></div>
+                <img src='images/se3_tracknet.gif' width="160">
+              </div>
+              <script type="text/javascript">
+                function ff_start() {
+                  document.getElementById('ff_image').style.opacity = "1";
+                }
+
+                function ff_stop() {
+                  document.getElementById('ff_image').style.opacity = "0";
+                }
+                ff_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="">
+                <papertitle>se(3)-TrackNet: Data-driven 6D Pose Tracking by Calibrating Image Residuals in Synthetic Domains</papertitle>
+              </a>
+              <br>
+              Bowen Wen, <strong>Chaitanya Mitash</strong>, Baozhang Ren and Kostas Bekris
+              <br>
+        <em>IEEE International Conference on Intelligent Robots and Systems (IROS)</em>, 2020  
+              <br>
+              <a href="">project page (Coming soon...)</a>/
+              <a href="">arXiv (Coming soon...)</a>
+              <p></p>
+              <p>Learning in simulation to predict residual poses for object models in RGB-D sequences.</p>
+            </td>
+          </tr>
+
+          <!-- Paper -->
+
+          <tr onmouseout="ff_stop()" onmouseover="ff_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='ff_image'>
+                  <img src='images/safe_picking.png' width="160"></div>
+                <img src='images/safe_picking.png' width="160">
+              </div>
+              <script type="text/javascript">
+                function ff_start() {
+                  document.getElementById('ff_image').style.opacity = "1";
+                }
+
+                function ff_stop() {
+                  document.getElementById('ff_image').style.opacity = "0";
+                }
+                ff_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="">
+                <papertitle>Safe and Effective Picking Paths in Clutter given Discrete Distributions of Object Poses</papertitle>
+              </a>
+              <br>
+              Rui Wang, <strong>Chaitanya Mitash</strong>, Shiyang Lu, Daniel Boehm, Kostas E. Bekris
+              <br>
+        <em>IEEE International Conference on Intelligent Robots and Systems (IROS)</em>, 2020  
+              <br>
+              <a href="">project page (Coming soon...)</a>/
+              <a href="">arXiv (Coming soon...)</a>
+              <p></p>
+              <p>A perception and motion planning framework that considers the uncertainty in object poses to generate picking plans that minimizes the chance of collision and maximizes the likelihood of success.</p>
             </td>
           </tr>
 
